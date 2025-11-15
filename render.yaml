@@ -8,3 +8,13 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+      # IMPORTANTE: Configura estas variables en el Dashboard de Render
+      # Settings > Environment > Add Environment Variable
+      - key: DB_USER
+        sync: false  # Debes configurar manualmente en Render Dashboard
+      - key: DB_PASSWORD
+        sync: false  # Debes configurar manualmente en Render Dashboard
+      - key: DB_SERVER
+        sync: false  # Debes configurar manualmente en Render Dashboard
+      - key: DB_NAME
+        sync: false  # Debes configurar manualmente en Render Dashboard
